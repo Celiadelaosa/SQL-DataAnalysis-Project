@@ -1,72 +1,134 @@
-# Proyecto: **Consultas SQL - Tienda de Películas** 🎬
+🌐 Languages:
+- English: README.md
+- Español: README_ES.md
 
-### 📝 **Descripción**
+# 🎬 Movie Rental Store Database – SQL Analysis
 
-Este proyecto se centra en analizar una base de datos relacionada con una tienda ficticia de alquiler de películas. A través de consultas SQL, se resuelven diversas cuestiones planteadas sobre los datos, con el fin de obtener información valiosa sobre clientes, empleados, películas y pagos.
+## 📌 Project Overview
 
-El objetivo es familiarizarse con **DBeaver** y trabajar con bases de datos relacionales, enfrentándose a los desafíos de un análisis de datos similar al que podría realizarse en un entorno empresarial real.
+This project focuses on analyzing a fictional movie rental store database using SQL queries to answer business-related questions and extract valuable insights about customers, employees, movies, and payment activity.
+
+The main objective was to strengthen SQL skills and gain hands-on experience working with relational databases through realistic data analysis scenarios.
 
 ---
 
-### 📁 **Estructura del Proyecto**
+## 🎯 Project Objectives
 
-💻 **Consultas SQL**  
-Las consultas SQL utilizadas en este proyecto se encuentran en el archivo **[consultas_tiendapelis.sql](consultas_tiendapelis.sql)**. Este archivo contiene todas las consultas que se han ejecutado para analizar la base de datos.
+- Query and analyze a relational database using SQL
+- Explore relationships between multiple tables
+- Extract business insights from customer, movie, and payment data
+- Apply SQL best practices for readability and organization
+- Improve proficiency with database management tools
 
-🔎 **Esquema de la Base de Datos**  
-El esquema completo de la base de datos con todas las tablas y relaciones está disponible en el archivo **[esquema_tiendapelis.png](esquema_tiendapelis.png)**. 
+---
+
+## 📁 Repository Structure
+
+💻 **SQL Queries**  
+The SQL queries used in this project are available in:
+
+`consultas_tiendapelis.sql`
+
+This file contains all SQL statements executed to analyze the database.
+
+🔎 **Database Schema**  
+The complete database schema, including table relationships, is available in:
+
+`esquema_tiendapelis.png`
 
 📄 **README.md**  
-Documento que explica la descripción, estructura y análisis del proyecto.
+Project documentation and overview.
 
 ---
 
-### 🛠 **Instalación y Requisitos**
+## 🛠️ Tools & Technologies
 
-Este proyecto fue desarrollado utilizando **DBeaver** como cliente SQL y **PostgreSQL** como sistema de gestión de bases de datos.
-
-1. Es necesario tener **PostgreSQL** instalado en el sistema.
-2. Al abrir **DBeaver** debe estar conectado con la base de datos **'PROYECTO'**.
-3. La base de datos debe estar correctamente cargada y configurada.
-4. Se deben ejecutar las consultas en el archivo SQL para obtener los resultados solicitados.
+- PostgreSQL
+- DBeaver
+- SQL
 
 ---
 
-### 📈 **Análisis Descriptivo de los Datos**
+## 🗂️ Dataset Information
 
-El conjunto de datos simula las características de una tienda de alquiler de películas. Las tablas incluyen información sobre:
+The database simulates a movie rental business and contains information related to:
 
-- **Clientes**: Datos personales, identificadores y pagos realizados.
-- **Empleados**: Información sobre los trabajadores, su ubicación y tienda en la que trabajan.
-- **Películas**: Datos sobre las películas, como el reparto de actores, categorías e idiomas.
-- **Pagos**: Información sobre las transacciones realizadas por los clientes.
+### Customers
+- Personal information
+- Customer identifiers
+- Payment records
 
----
+### Employees
+- Employee details
+- Store assignments
+- Location information
 
-### 📝 **Pasos Seguidos**
+### Movies
+- Movie details
+- Actors and cast information
+- Categories and languages
 
-1. Se cargó la base de datos en **DBeaver** y se visualizó el esquema para comprender las relaciones entre las tablas.
-2. Se ejecutaron diversas consultas SQL para extraer datos específicos sobre clientes, empleados y películas.
-3. A lo largo del proceso, se revisaron las explicaciones de las lecciones de la unidad para asegurar la correcta ejecución.
-4. Se aplicaron buenas prácticas como comentarios y cierres en las consultas y uso de alias para mayor claridad.
-
----
-
-### ✅ **Resultados y Conclusiones**
-
-- La mayoría de las consultas estuvieron centradas en los **clientes**: sus datos personales, películas alquiladas y pagos realizados.
-- Se obtuvo información útil sobre las **películas** de la tienda, especialmente sobre actores y categorías.
-- La información sobre **empleados** es limitada en la base de datos actual, por lo que podría mejorarse en el futuro para permitir un análisis más profundo.
+### Payments
+- Customer transactions
+- Payment history
 
 ---
 
-### 🚀 **Próximos Pasos**
+## 🔎 Project Workflow
 
-1. **Ampliación de la Información sobre Empleados**: Se sugiere agregar más datos sobre los empleados (por ejemplo, desempeño y ventas) para un análisis más completo.
-2. **Análisis de Películas y Actores**: Profundizar en las categorías de películas y actores más populares podría ayudar a identificar tendencias y oportunidades de negocio.
+### 1. Database Exploration
+
+The database schema was reviewed to understand relationships between tables and identify key entities.
+
+### 2. SQL Query Development
+
+Multiple SQL queries were written to retrieve and analyze information related to:
+
+- Customer activity
+- Movie catalog information
+- Payment transactions
+- Employee-related data
+
+### 3. Query Optimization & Best Practices
+
+The following SQL practices were applied:
+
+- Use of aliases for readability
+- Query organization and comments
+- Clear structure and formatting
 
 ---
 
-### 👩‍💻 **Autores**
+## 📈 Key Findings
 
-- **Celia de la Osa**
+- Customer-related information represented the main focus of the analysis, including rental activity and payment behavior.
+- Valuable insights were extracted regarding movies, actors, and categories.
+- Employee information was relatively limited within the current dataset, reducing the depth of workforce-related analysis.
+
+---
+
+## 💡 Skills Demonstrated
+
+- SQL querying
+- Relational database analysis
+- Table joins and relationships
+- Data extraction and filtering
+- Query organization and documentation
+
+---
+
+## 🚀 Future Improvements
+
+- Expand employee-related information for deeper analysis
+- Explore movie and actor trends to identify potential business insights
+- Develop more advanced analytical queries
+
+---
+
+## 👩‍💻 Author
+
+Celia de la Osa
+
+
+
+
